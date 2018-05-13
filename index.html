@@ -15,6 +15,7 @@
        {{#each this}}
          <li>
            <h2><a href="{{html_url}}">{{name}}</a></h2>
+           {{> authorPartial owner}}
            <section>
              <header><h4> Created by {{owner.login}}</h4></header>
            </secton>
